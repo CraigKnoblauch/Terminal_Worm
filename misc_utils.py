@@ -101,9 +101,9 @@ That's it. I hope you have fun!
 x
 """
 
-    dialogue(window, ['Help', command_help], [{}, ['--Press Space--', None]])
-    dialogue(window, ['Help', gameplay_help], [{}, ['--Press Space--', None]])
-    dialogue(window, ['Help', bug_help], [{}, ['--Press Space--', None]])
+    dialogue(window, ['Help', command_help], [{}, ['--Press Enter--', None]])
+    dialogue(window, ['Help', gameplay_help], [{}, ['--Press Enter--', None]])
+    dialogue(window, ['Help', bug_help], [{}, ['--Press Enter--', None]])
     flow_control.countdown(window)
 
 
