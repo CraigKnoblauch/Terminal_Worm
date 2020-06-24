@@ -73,7 +73,7 @@ SCOREPOS = [0, WINWIDTH - 4]
 
 # Snake constants
 HEADCHR = '@'
-BODYCHR = 'o'
+BODYCHR = '='
 INITPOS = [int(WINHEIGHT / 2), int(WINWIDTH / 2)]  # The middle
 INITLENGTH = 4
 assert (INITPOS[1] - INITLENGTH > 0 and
