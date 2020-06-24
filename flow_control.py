@@ -34,7 +34,7 @@ Pauses execution of the game.
 Gives the user a message, waits for input, then counts down from 3
 window should be a curses window object.
     '''
-    dialogue(window, ['P A U S E D', 'press any key'], [{}, ['Start', None]])
+    dialogue(window, ['P A U S E D', 'press enter to resume'], [{}, ['Start', None]])
     countdown(window)
 
 
