@@ -98,7 +98,7 @@ the rest of the timer
 will be added to your score!
 
 That's it. I hope you have fun!
-
+x
 """
 
     dialogue(window, ['Help', command_help], [{}, ['--Press Space--', None]])
